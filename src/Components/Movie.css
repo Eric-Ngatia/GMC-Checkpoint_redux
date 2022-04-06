@@ -1,0 +1,37 @@
+.Movie__container{
+    margin-top: 2rem;
+    border: 2px solid green;
+}
+
+.card{
+    cursor: pointer;
+    border: 2px double yellow;
+    margin: 0 auto;
+}
+
+
+.icon{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 60px;
+    color: transparent;
+    transition: 600ms ease-in-out;
+}
+
+.card:hover .icon{
+    color: orangered;
+}
+
+.card-img-top{
+    object-fit: cover;
+}
+
+.card-title{
+    text-decoration: none;
+}
+
+.card-body{
+    background-color:black;
+}
+
